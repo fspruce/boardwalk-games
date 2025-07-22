@@ -1,11 +1,11 @@
 /*
 Colour Pallette
-#3A2620; dark brown
-#AA9581; light brown
-#416A8E; dark blue
-#7A9FC2; light blue
-#FFFFFF; white
-#000000; black
+#3A2620; dark-brown
+#AA9581; light-brown
+#416A8E; dark-blue
+#7A9FC2; light-blue
+#FFFFFF; -white
+#000000; -black
 */
 
 /* Fonts */
@@ -17,10 +17,10 @@ Colour Pallette
 :root {
   --primary-font: "Inter", sans-serif;
   --secondary-font: "Macondo", cursive;
-  --primary-color: #3a2620; /* dark brown */
-  --secondary-color: #aa9581; /* light brown */
-  --highlight-color: #416a8e; /* dark blue */
-  --highlight-color-light: #7a9fc2; /* light blue */
+  --primary-color: #3a2620; /* dark-brown */
+  --secondary-color: #aa9581; /* light-brown */
+  --highlight-color: #416a8e; /* dark-blue */
+  --highlight-color-light: #7a9fc2; /* light-blue */
 }
 
 body {
@@ -32,7 +32,15 @@ h2,
 h3 {
   font-family: var(--secondary-font);
   color: var(--primary-color);
+}
+
+h1,
+h2 {
   text-transform: uppercase;
+}
+
+h2 {
+  margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -56,6 +64,17 @@ h3 {
 /* Header */
 #header .lead {
   font-family: var(--secondary-font);
+}
+
+/* Services Section */
+#services .card-footer {
+  font-weight: bold;
+  color: var(--highlight-color);
+  background-color: transparent;
+}
+
+#services .card {
+  margin-bottom: 1.5rem;
 }
 
 /*
