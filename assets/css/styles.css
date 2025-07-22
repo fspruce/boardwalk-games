@@ -77,6 +77,12 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
+/* Game Library */
+#new-games .card,
+#fav-games .card {
+  border: none;
+}
+
 /*
 .container,
 .row {
