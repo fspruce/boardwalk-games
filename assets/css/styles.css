@@ -83,6 +83,13 @@ h2 {
   border: none;
 }
 
+/*Footer / Contact */
+#contact {
+  background-color: var(--primary-color);
+  color: #ffffff; /* white */
+  padding-bottom: 3rem;
+}
+
 /*
 .container,
 .row {
