@@ -105,6 +105,19 @@ h2 {
   border: none;
 }
 
+#reserve-game {
+  width: 100%;
+}
+
+#reserve-game input,
+#reserve-game select {
+  margin-bottom: 1rem;
+}
+
+#reserve-game button {
+  margin-top: 1rem;
+}
+
 /*Footer / Contact */
 #contact {
   background-color: var(--primary-color);
